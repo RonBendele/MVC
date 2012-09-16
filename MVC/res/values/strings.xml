@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Hello World, MVCActivity!</string>
+    <string name="app_name">MVC</string>
+    <string name="stop">Stop</string>
+    <string name="start">Start</string>
+    <string name="add_time">Add Time</string>
+
+</resources>
