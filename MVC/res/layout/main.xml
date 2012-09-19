@@ -1,80 +1,77 @@
 <?xml version="1.0" encoding="utf-8"?>
-<com.musselwhizzle.mvc.views.MainView 
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<com.musselwhizzle.mvc.views.MainView xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="fill_parent"
     android:layout_height="fill_parent"
-    android:orientation="vertical" 
-    >
+    android:orientation="vertical" >
 
     <LinearLayout
         android:id="@+id/digitsContainer"
         android:layout_width="wrap_content"
         android:layout_height="60dp"
         android:layout_gravity="center_horizontal"
-        android:layout_marginTop="20dp"
-        >
+        android:layout_marginTop="20dp" >
+
         <!-- minutes -->
+
         <com.musselwhizzle.mvc.widgets.Digit
             android:id="@+id/digit1"
             android:layout_width="wrap_content"
-	    	android:layout_height="wrap_content"
-            />
+            android:layout_height="wrap_content" />
+
         <com.musselwhizzle.mvc.widgets.Digit
             android:id="@+id/digit2"
             android:layout_width="wrap_content"
-	    	android:layout_height="wrap_content"
-            />
-        <TextView 
+            android:layout_height="wrap_content" />
+
+        <TextView
             android:layout_width="wrap_content"
-	    	android:layout_height="wrap_content"
-	    	android:text=":"
-	    	android:textSize="25sp"
-	    	android:textColor="#FFFFFFFF"
-            />
+            android:layout_height="wrap_content"
+            android:text=":"
+            android:textColor="#FFFFFFFF"
+            android:textSize="25sp" />
         <!-- seconds -->
+
         <com.musselwhizzle.mvc.widgets.Digit
             android:id="@+id/digit3"
             android:layout_width="wrap_content"
-	    	android:layout_height="wrap_content"
-            />
+            android:layout_height="wrap_content" />
+
         <com.musselwhizzle.mvc.widgets.Digit
             android:id="@+id/digit4"
             android:layout_width="wrap_content"
-	    	android:layout_height="wrap_content"
-            />
-        <TextView 
+            android:layout_height="wrap_content" />
+
+        <TextView
             android:layout_width="wrap_content"
-	    	android:layout_height="wrap_content"
-	    	android:text="."
-	    	android:textSize="25sp"
-	    	android:textColor="#FFFFFFFF"
-            />
+            android:layout_height="wrap_content"
+            android:text="."
+            android:textColor="#FFFFFFFF"
+            android:textSize="25sp" />
         <!-- milli -->
+
         <com.musselwhizzle.mvc.widgets.Digit
             android:id="@+id/digit5"
             android:layout_width="wrap_content"
-	    	android:layout_height="wrap_content"
-            />
+            android:layout_height="wrap_content" />
     </LinearLayout>
+
     <LinearLayout
-	    android:layout_width="wrap_content"
-	    android:layout_height="wrap_content"
-	    android:orientation="horizontal"
-	    android:layout_gravity="center_horizontal"
-	    >
-	    <Button
-	        android:id="@+id/toggleBtn"
-		    android:layout_width="110dp"
-		    android:layout_height="wrap_content"
-		    android:text="@string/stop"
-		    />
-	    <Button
-	        android:id="@+id/addTimeBtn"
-		    android:layout_width="110dp"
-		    android:layout_height="wrap_content"
-		    android:text="@string/add_time"
-		    />
-	    
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/toggleBtn"
+            android:layout_width="110dp"
+            android:layout_height="wrap_content"
+            android:text="@string/stop" />
+
+        <Button
+            android:id="@+id/addTimeBtn"
+            android:layout_width="110dp"
+            android:layout_height="wrap_content"
+            android:text="@string/add_time" />
     </LinearLayout>
 
 </com.musselwhizzle.mvc.views.MainView>

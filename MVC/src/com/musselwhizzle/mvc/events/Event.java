@@ -1,8 +1,8 @@
 package com.musselwhizzle.mvc.events;
 
 public interface Event {
-	
-	public String getType();
-	public Object getSource();
-	public void setSource(Object source);
+
+    public String getType();
+    public Object getSource();
+    public void setSource(Object source);
 }
